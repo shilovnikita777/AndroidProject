@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string-array name="emails">
+        <item>nshilov@sfedu.ru</item>
+        <item>vvv@sfedu.ru</item>
+        <item>kkk@sfedu.ru</item>
+        <item>ggg@sfedu.ru</item>
+        <item>ccc@sfedu.ru</item>
+    </string-array>
+    <string-array name="passwords">
+        <item>12345</item>
+        <item>11111</item>
+        <item>55555</item>
+        <item>22222</item>
+        <item>33333</item>
+    </string-array>
+    <string-array name="recipes">
+        <item>1984</item>
+        <item>О дивный новый мир</item>
+        <item>Франкенштейн, или современный Прометей</item>
+        <item>Процесс</item>
+        <item>Нейромант</item>
+        <item>Вещи, которые они несли с собой</item>
+        <item>Бойня номер пять, или Крестовый поход детей</item>
+        <item>451 градус по Фаренгейту</item>
+        <item>Сговор остолопов</item>
+        <item>Хладнокровное убийство</item>
+        <item>Повелитель мух</item>
+        <item>Алхимик</item>
+        <item>Вторники с Морри</item>
+        <item>Портрет Дориана Грея</item>
+        <item>Заводной апельсин</item>
+        <item>Думай медленно...решай быстро</item>
+        <item>Имя Розы</item>
+        <item>Посторонний</item>
+        <item>Гении и аутсайдеры</item>
+        <item>Игра Эндера</item>
+        <item>Поправка-22</item>
+        <item>Скотный двор</item>
+        <item>Хранители</item>
+        <item>Атака титанов</item>
+        <item>Реинкарнация безработного</item>
+    </string-array>
+    <string-array name="authors">
+        <item>Автор1</item>
+        <item>Автор2</item>
+        <item>Автор3</item>
+        <item>Автор4</item>
+        <item>Автор5</item>
+        <item>Автор6</item>
+        <item>Автор7</item>
+        <item>Автор8</item>
+        <item>Автор9</item>
+        <item>Автор10</item>
+        <item>Автор11</item>
+        <item>Автор12</item>
+        <item>Автор13</item>
+        <item>Автор14</item>
+        <item>Автор15</item>
+        <item>Автор16</item>
+        <item>Автор17</item>
+        <item>Автор18</item>
+        <item>Автор19</item>
+        <item>Автор20</item>
+        <item>Автор21</item>
+        <item>Автор22</item>
+        <item>Автор23</item>
+        <item>Автор24</item>
+        <item>Автор25</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">List of books</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_test">Current book</string>
+</resources>
