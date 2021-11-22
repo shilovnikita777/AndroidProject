@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity2"
+    tools:deviceIds="wear"
+    android:background="#fbceb1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:layout_boxedEdges="all">
+
+        <androidx.wear.widget.WearableRecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:scrollbars="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            tools:itemCount="5"
+            tools:listitem="@layout/recyclerview_element"
+            tools:context=".ui.list.ListActivity"
+            tools:deviceIds="wear">
+        <requestFocus />
+    </androidx.wear.widget.WearableRecyclerView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.wear.widget.BoxInsetLayout>
