@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/box_inset_layout_padding"
     tools:context=".MainActivity"
     tools:deviceIds="wear"
     android:background="#BDECB6">
@@ -13,43 +12,44 @@
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/inner_frame_layout_padding"
         app:layout_boxedEdges="all">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="42dp"
             android:layout_height="42dp"
+            android:layout_marginTop="10dp"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:src="@drawable/logo"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/editTextEmailAddress"
-            android:layout_width="120dp"
+            android:layout_width="105dp"
             android:layout_height="32dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#393E46"
             android:ellipsize="start"
-            android:ems="10"
             android:hint="E-mail"
             android:inputType="textEmailAddress"
             android:textColor="#393E46"
             android:textColorHint="#393E46"
-            android:backgroundTint="#393E46"
             android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imageView" />
 
         <EditText
             android:id="@+id/editTextPassword"
-            android:layout_width="120dp"
+            android:layout_width="105dp"
             android:layout_height="32dp"
+            android:layout_marginTop="2dp"
             android:ellipsize="start"
-            android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
             android:textColor="#393E46"
@@ -57,20 +57,21 @@
             android:backgroundTint="#393E46"
             android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/editTextEmailAddress" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="120dp"
+            android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:backgroundTint="#000000"
-            android:text="Войти"
+            android:background="#0081D6"
             android:onClick="OnMyButtonClick"
+            android:text="Войти"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/editTextPassword" />
+            app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

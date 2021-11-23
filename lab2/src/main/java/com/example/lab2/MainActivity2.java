@@ -64,7 +64,7 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
         mRecyclerView.setLayoutManager(new WearableLinearLayoutManager(getBaseContext()));
-        mRecyclerView.setCircularScrollingGestureEnabled(true);
+        //mRecyclerView.setCircularScrollingGestureEnabled(true);
         //mRecyclerView.setEdgeItemsCenteringEnabled(true);
     }
 }
